@@ -1,10 +1,12 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      {{titre}}
     </ion-title>
   </ion-toolbar>
 </ion-header>
+
+
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
@@ -13,5 +15,12 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+
+  <div id="container">
+      <p>{{variable}}</p>
+      <ion-button routerLink="list-event">List event</ion-button>
+  </div>
+
 </ion-content>
+
+

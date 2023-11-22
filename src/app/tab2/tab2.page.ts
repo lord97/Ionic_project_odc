@@ -7,6 +7,13 @@ import { Component } from '@angular/core';
 })
 export class Tab2Page {
 
+  mavar = "premier texte"
+
   constructor() {}
+
+  changeVar(){
+
+    this.mavar = "second texte";
+  }
 
 }
